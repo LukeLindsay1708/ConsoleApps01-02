@@ -22,7 +22,7 @@ public class Program
         if (MilestooFeet < 0)
             Console.WriteLine("error");
         if (MilestooFeet > 0)
-                    Console.WriteLine("in feet it would be" + Miles2Feet);
+            Console.WriteLine("in feet it would be " + Miles2Feet);
         
 
 
@@ -33,7 +33,7 @@ public class Program
         if (FeettooMiles < 0)
             Console.WriteLine("error");
         if (FeettooMiles > 0)
-            Console.WriteLine("in miles it would be" + Feet2Miles);
+            Console.WriteLine("in miles it would be " + Feet2Miles);
 
 
         Console.WriteLine("Enter Miles:");
@@ -42,7 +42,7 @@ public class Program
         if (MilestooMeters < 0)
             Console.WriteLine("error");
         if (MilestooMeters > 0)
-            Console.WriteLine("in Meters it would be" + Miles2Meters);
+            Console.WriteLine("in Meters it would be " + Miles2Meters);
 
         Console.WriteLine("Enter Meters:");
         double MeterstooMiles = Convert.ToDouble(Console.ReadLine());
@@ -50,19 +50,19 @@ public class Program
         if (MeterstooMiles < 0)
             Console.WriteLine("error");
         if (MeterstooMiles > 0)
-            Console.WriteLine("in Miles it would be" + Meters2Miles);
+            Console.WriteLine("in Miles it would be " + Meters2Miles);
 
         Console.WriteLine("Enter Meters:");
         double MeterstooFeet = Convert.ToDouble(Console.ReadLine());
-        double Meters2Feet = MeterstooFeet * 1609.34;
+        double Meters2Feet = MeterstooFeet * 3.28084;
         if (MeterstooFeet < 0)
             Console.WriteLine("error");
         if (MeterstooFeet > 0)
-            Console.WriteLine("in feet it would be" + Meters2Feet);
+            Console.WriteLine("in feet it would be " + Meters2Feet);
 
         Console.WriteLine("Enter Feet:");
         double FeettooMeters = Convert.ToDouble(Console.ReadLine());
-        double Feet2Meters = FeettooMeters / 1609.34;
+        double Feet2Meters = FeettooMeters / 3.28084;
         if (FeettooMeters < 0)
             Console.WriteLine("error");
         if (FeettooMeters > 0)
