@@ -21,16 +21,12 @@ public class Program
         double Miles2Feet = MilestooFeet * 5280;
         if (MilestooFeet < 0)
             Console.WriteLine("error");
-        
-
-
 
         Console.WriteLine("Enter Feet:");
         double FeettooMiles = Convert.ToDouble(Console.ReadLine());
         double Feet2Miles = FeettooMiles / 5280;
         if (FeettooMiles < 0)
             Console.WriteLine("error");
-
 
         Console.WriteLine("Enter Miles:");
         double MilestooMeters = Convert.ToDouble(Console.ReadLine());
@@ -42,6 +38,18 @@ public class Program
         double MeterstooMiles = Convert.ToDouble(Console.ReadLine());
         double Meters2Miles = MeterstooMiles / 1609.34;
         if (MeterstooMiles < 0)
+            Console.WriteLine("error");
+        
+           Console.WriteLine("Enter Meters:");
+        double MeterstooFeet = Convert.ToDouble(Console.ReadLine());
+        double Meters2Feet = MeterstooFeet / ;
+        if (MeterstooFeet < 0)
+            Console.WriteLine("error");
+
+        Console.WriteLine("Enter Feet:");
+        double FeettooMeters = Convert.ToDouble(Console.ReadLine());
+        double Feet2Meters = FeettooMeters / 1609.34;
+        if (FeettooMeters < 0)
             Console.WriteLine("error");
 
 
